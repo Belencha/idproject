@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Example-app';
+
+  visible = false;
+  decirAdios() {
+    this.visible = true;
+  }
 }
