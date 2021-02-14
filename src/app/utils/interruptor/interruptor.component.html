@@ -1,2 +1,6 @@
 <button (click)="intercambiar()">Cambiar interruptor</button>
-<p *ngIf="activo">¡Estoy activado!</p>
+<p *ngIf="activo; else inactivo">¡Estoy activado!</p>
+
+<ng-template #inactivo>
+  <p>Estoy inactivo...</p>
+</ng-template>
