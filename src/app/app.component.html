@@ -6,4 +6,9 @@
 </p>
 <button (click)="decirAdios()">Decir adiós</button>
 
+<p>
+  ¿Cómo te llamas?  <input type="text" [(ngModel)]="quien">
+</p>
+<p>Estás escribiendo esto: {{ quien }}</p>
+
 <app-my-first-component>Loading...</app-my-first-component>
