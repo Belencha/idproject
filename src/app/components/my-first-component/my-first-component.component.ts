@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MyFirstComponentComponent implements OnInit {
 
+  valor = 'valor del input';
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  cambiaLado(nuevoValor) {
+    this.valor = nuevoValor;
   }
 
 }
