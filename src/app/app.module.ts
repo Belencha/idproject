@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { MyFirstComponentComponent } from './components/my-first-component/my-first-component.component';
 import { FormsModule } from '@angular/forms';
 import { DoubleBindingExampleComponent } from './components/double-binding-example/double-binding-example.component';
+import { UtilsModule } from './utils/utils.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { DoubleBindingExampleComponent } from './components/double-binding-examp
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    UtilsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

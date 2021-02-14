@@ -6,6 +6,9 @@ import { InterruptorComponent } from './interruptor/interruptor.component';
   declarations: [InterruptorComponent],
   imports: [
     CommonModule
+  ],
+  exports: [
+    InterruptorComponent
   ]
 })
 export class UtilsModule { }
